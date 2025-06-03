@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('model.pkl1', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title("Music Mood Classifier 🎵")
